@@ -9,6 +9,8 @@ int main()
     {  
         if ('A' <= a[i] &&a[i]<= 'Z')  
             printf（“％c”，a [i] -32）； //小写转换大写
+        if('a' <= a[i] && a[i] <='z')
+        printf("%c",a[i]+32); //大写转为小写
          
         else  
         printf("%c", a[i]);  
