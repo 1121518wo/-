@@ -1,0 +1,38 @@
+1、把字符串中的小写字母转换成大写字母（请手写代码实现）
+#include <stdio.h>
+
+int main()
+{char a[N];  
+    int i;  
+    scanf("%s", a);  
+    for (i = 0; a[i] != '\0'; i++)  
+    {  
+        if ('A' <= a[i] &&a[i]<= 'Z')  
+            printf（“％c”，a [i] -32）； //小写转换大写
+         
+        else  
+        printf("%c", a[i]);  
+    }  
+    return 0; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
